@@ -22,5 +22,5 @@ The installation location would be following(assuming perl version is 5.16)
 ### Manual lib setup
 $ export PERL5LIB=/../.. 
 
-### Check @INC
+### Check @INC - the module lookup paths
 $ perl -Mlocal::lib
