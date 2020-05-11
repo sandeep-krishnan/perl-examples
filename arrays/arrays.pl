@@ -1,3 +1,5 @@
+#use strict;
+#use warnings;
 my @array = (a,b,c,d);
 
 print "normal array -> @array \n" ;
