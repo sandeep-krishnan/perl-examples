@@ -49,3 +49,10 @@ print("\nDoes key 4 exist in hash? ", exists($hash{4}));
 if(exists($hash{4})) {
 	print("\n4 exists in the hash");
 }
+
+#map from array
+my @required = qw(preserver sunscreen water_bottle jacket);
+my %skipper =map{$_,1}
+	qw(blue_shirt hat jacket preserver sunscreen);
+
+print("map from array ", %skipper);
