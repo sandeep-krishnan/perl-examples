@@ -38,7 +38,14 @@ print "keys of array is @keys_arr \n";
 my @value_arr = values(%hash);
 print "values of array is @value_arr \n";
 
+#each for iterating
 print("printing values using each function\n");
 while(my($key, $value) = each(%hash)) {
 	print("$key -> $value ");
+}
+
+#exits
+print("\nDoes key 4 exist in hash? ", exists($hash{4}));
+if(exists($hash{4})) {
+	print("\n4 exists in the hash");
 }
