@@ -1,6 +1,7 @@
 use strict;
 use warnings FATAL => 'all';
-use File::Basename;
+#selective import of methods
+use File::Basename qw(dirname basename);
 
 my $basename = basename("/Users/krsandeep/code");
 my $dirname = dirname("/Users/krsandeep/code");
