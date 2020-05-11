@@ -37,3 +37,8 @@ print "keys of array is @keys_arr \n";
 
 my @value_arr = values(%hash);
 print "values of array is @value_arr \n";
+
+print("printing values using each function\n");
+while(my($key, $value) = each(%hash)) {
+	print("$key -> $value ");
+}
