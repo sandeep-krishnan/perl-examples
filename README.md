@@ -11,3 +11,10 @@ $ source ~/perl5/perlbrew/etc/bashrc;
 
 $ perldoc File::Basename
 
+## Modules
+### Install CPANM
+$ perlbrew install-cpanm 
+$ cpanm install Perl::Tidy 
+
+$ perl -Mlocal::lib
+
