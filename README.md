@@ -16,5 +16,8 @@ $ perldoc File::Basename
 $ perlbrew install-cpanm 
 $ cpanm install Perl::Tidy 
 
+The installation location would be following(assuming perl version is 5.16)  
+~/perl5/perlbrew/perls/perl-5.16.0/lib/site_perl/5.16.0
+
 $ perl -Mlocal::lib
 
