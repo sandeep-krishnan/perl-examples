@@ -28,4 +28,9 @@ $ perl -le "print for @INC"
   /Users/sandeep/perl5/perlbrew/perls/perl-5.16.0/lib/site_perl/5.16.0/darwin-2level
   /Users/sandeep/perl5/perlbrew/perls/perl-5.16.0/lib/site_perl/5.16.0
   /Users/sandeep/perl5/perlbrew/perls/perl-5.16.0/lib/5.16.0/darwin-2level
-  /Users/sandeep/perl5/perlbrew/perls/perl-5.16.0/lib/5.16.0
+  /Users/sandeep/perl5/perlbrew/perls/perl-5.16.0/lib/5.16.0 
+  
+### Adding lib at runtime
+Add the following in the perl file
+
+use lib '/Users/sandeep/perl/lib'
