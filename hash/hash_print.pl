@@ -1,8 +1,10 @@
-%hash = (1 => 'one', 2 => 'two', 3 => 'three');
+use strict;
+use warnings;
+my %hash = (1 => 'one', 2 => 'two', 3 => 'three');
 print %hash;
 print "\n";
 
-$i = 10;
+my $i = 10;
 
 while ($i > 0) {
 	$i = $i - 1;
@@ -10,7 +12,7 @@ while ($i > 0) {
 };
 
 
-%newHash = %hash;
+my %newHash = %hash;
 
 #adding a new key
 $hash{4} = 'FOUR';
@@ -30,8 +32,8 @@ delete $hash{1};
 print "Printing hash after deleting 1 \n";
 print %hash, "\n";
 
-@keys_arr = keys(%hash);
+my @keys_arr = keys(%hash);
 print "keys of array is @keys_arr \n";
 
-@value_arr = values(%hash);
+my @value_arr = values(%hash);
 print "values of array is @value_arr \n";
