@@ -23,4 +23,9 @@ The installation location would be following(assuming perl version is 5.16)
 $ export PERL5LIB=/../.. 
 
 ### Check @INC - the module lookup paths
-$ perl -Mlocal::lib
+$ perl -Mlocal::lib 
+$ perl -le "print for @INC"
+  /Users/sandeep/perl5/perlbrew/perls/perl-5.16.0/lib/site_perl/5.16.0/darwin-2level
+  /Users/sandeep/perl5/perlbrew/perls/perl-5.16.0/lib/site_perl/5.16.0
+  /Users/sandeep/perl5/perlbrew/perls/perl-5.16.0/lib/5.16.0/darwin-2level
+  /Users/sandeep/perl5/perlbrew/perls/perl-5.16.0/lib/5.16.0
